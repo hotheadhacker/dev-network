@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "MERN Stack Based",
   "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
   "repository": "https://github.com/hotheadhacker/dev-network.git",
   "author": "hotheadhacker <isalmanqureshi@gmail.com>",
   "license": "MIT",
