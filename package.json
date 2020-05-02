@@ -1,0 +1,23 @@
+{
+  "name": "dev-network",
+  "version": "1.0.0",
+  "description": "MERN Stack Based",
+  "main": "index.js",
+  "repository": "https://github.com/hotheadhacker/dev-network.git",
+  "author": "hotheadhacker <isalmanqureshi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.11",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
