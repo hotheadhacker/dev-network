@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const ProfileScheema = new mongoose.Schema({
   //Will give back _id of user
   user: {
-    type: moongose.Schema.Types.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'user'
   },
   comapny: {
@@ -111,4 +111,4 @@ const ProfileScheema = new mongoose.Schema({
   }
 });
 
-module.exports = Profile = moongose.model('profile', ProfileScheema);
+module.exports = Profile = mongoose.model('profile', ProfileScheema);
