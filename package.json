@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "yarn start --cwds client",
+    "dev": "concurrently \" yarn run server \" \"yarn run client\""
   },
   "repository": "https://github.com/hotheadhacker/dev-network.git",
   "author": "hotheadhacker <isalmanqureshi@gmail.com>",
